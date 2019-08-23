@@ -25,7 +25,7 @@ Open `CodeOfConscience.py` and edit the `shapefile` variable to reflect the name
 shapefile = "WDPA_Aug2019-shapefile-polygons.shp"
 ```
 
-Set the `machineLocation` to a location you'd like to check
+Set the `machineLocation` (Longitude, Latitude) to a location you'd like to check
 ```python
 machineLocation = Point(175.8704514016789, -37.73493520423763)
 ```
