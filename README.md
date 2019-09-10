@@ -34,3 +34,14 @@ Run the tool to check the location
 ```sh
 python3 CodeOfConscience.py
 ```
+
+## Validation Kit
+An off-the-shelf validation kit to run the Code of Conscience Python code could be constructed using the following:
+
+1. Raspberry Pi Model 3+ or Model 4: https://www.adafruit.com/product/3775
+2. SixFab Raspberry Pi Hat: https://sixfab.com/product/raspberry-pi-cellular-iot-application-hat/
+3. (Optional) Weatherproof case: https://sixfab.com/product/raspberry-pi-ip65-weatherproof-iot-project-enclosure/
+4. (Optional) The kit includes an antenna for the GPS and LTE Cellular but you can purchase more here: https://sixfab.com/product/lte-gnss-dual-u-fl-antenna/
+5. (Optional) You are likely to require a DCDC converter to step the power down if you don’t have a 5V USB port available: https://www.tindie.com/products/omzlo/pi-jack-power-your-raspberry-pi-from-6v-to-28v/
+
+Details of the Code of Conscience hardware architecture can be found [here](hardware/CodeofConscienceValidationHardwareArchitecture.png), and the SixFab hat schematic can be found [here](hardware/Sixfab_RPi_CellularIoT_App_Hat_Schematic.PDF).
